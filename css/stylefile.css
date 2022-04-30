@@ -18,9 +18,10 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-a {
+.link {
     text-decoration: none;
 }
+
 .button {
     font-family: inherit;
     color: var(--three-color-text);
@@ -36,7 +37,7 @@ a {
     border-radius: 4px;
     cursor: pointer;
 }
-ul {
+.dot-list {
     list-style-type: none;
 }
 /*Header******************************************/
@@ -55,7 +56,6 @@ ul {
 
 .nvlist
  {
-    font-family: 'Roboto';
     font-weight: 500;
     color: var(--main-color-text);
 }
@@ -148,6 +148,11 @@ font-style: normal;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
 }
+.footer-address-two:hover,
+.footer-address-two:focus {
+color: var(--accent-color-text);
+}
+
  /*Portfolio************************/
   .filter-button {
     background: var(--second-bg);
